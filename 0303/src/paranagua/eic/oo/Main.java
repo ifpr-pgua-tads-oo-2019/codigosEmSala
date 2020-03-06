@@ -13,7 +13,7 @@ public class Main {
         //instanciando o objeto
         conta1 = new ContaBancaria();
 
-        System.out.println(conta1);
+        System.out.println(conta1.toString());
 
         //inicializar o estado do objeto
         conta1.numero = 1987193;
@@ -21,11 +21,11 @@ public class Main {
         conta1.cliente = "Chico";
         conta1.saldo = 10.0;
 
-        System.out.println(conta1);
+        System.out.println(conta1.toString());
 
         conta1.depositar(10.5);
 
-        System.out.println(conta1);
+        System.out.println(conta1.toString());
 
 
 
